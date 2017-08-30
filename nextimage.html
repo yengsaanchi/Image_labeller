@@ -1,0 +1,26 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="annotorious.css" />
+  <script type="text/javascript" src="annotorious.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  </head>
+     
+    <body  >
+<div>
+From<input type="number" size="10"  id="From" />
+To<input type="number" size="10"  id="To"/>
+<button onclick="retrieve();">Go</button>      
+<button id= "next" class="portfolioNavigation">Next</button>
+<input type="button" value="reset" style="background-color: black; color: yellow;" onclick="removeAnno();" /> 
+
+</div>     
+    
+<script type="text/javascript" src="label.js"></script>
+<img src= "photos/1.jpg" id="currentImage" class="annotatable" height="350"/>
+<input type="button" value="submit" style="background-color: black; color: yellow;" onclick="submit();" /> 
+
+   
+    </body>
+        
+</html>
